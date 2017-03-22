@@ -11,7 +11,7 @@ let space = {margin: 10};
 ReactDOM.render(
     <MuiThemeProvider>
     <div>
-    <TextField type="number" style={space}/><br/>
+    <TextField type="number" style={Object.assign({width: 60}, space)}/><br/>
     <Slider style={{display: 'inline-block', height:200}} axis="y-reverse" />
     <span style={{height:200, width:200, outline: '1px solid black', display: 'inline-block', verticalAlign: 'bottom'}}></span>
     <RaisedButton label="hello" style={space}/>

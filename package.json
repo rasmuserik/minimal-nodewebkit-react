@@ -1,5 +1,5 @@
 {
-  "name": "hello",
+  "name": "minimal-nodewebkit-react",
   "homepage": ".",
   "version": "0.1.0",
   "dependencies": {
